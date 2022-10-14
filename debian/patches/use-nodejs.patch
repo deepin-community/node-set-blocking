@@ -1,0 +1,20 @@
+Index: node-set-blocking/test/fixtures/yargs-497-stdout.js
+===================================================================
+--- node-set-blocking.orig/test/fixtures/yargs-497-stdout.js
++++ node-set-blocking/test/fixtures/yargs-497-stdout.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env node
++#!/usr/bin/env nodejs
+ 
+ // pretend we are a TTY
+ process.stdout.isTTY = true
+Index: node-set-blocking/test/fixtures/yargs-497-stderr.js
+===================================================================
+--- node-set-blocking.orig/test/fixtures/yargs-497-stderr.js
++++ node-set-blocking/test/fixtures/yargs-497-stderr.js
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env node
++#!/usr/bin/env nodejs
+ 
+ // pretend we are a TTY
+ process.stdout.isTTY = true
